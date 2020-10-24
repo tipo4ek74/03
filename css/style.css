@@ -24,6 +24,10 @@ body {
     background-color: var(--bg-color); 
 }
 
+.bg-color-w {
+    background-color: var(--bg-color);
+}
+
 .container {
     width: 1200px;
     padding-left: 15px;
@@ -193,6 +197,16 @@ p {
     color: var(--black);
 }
 
+.exemples-title {
+    margin-top: 20px;
+    margin-left: 24px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.06em;
+}
+
 .paragraf {
     font-size: 16px;
     line-height: 1.187;
@@ -201,8 +215,11 @@ p {
 }
 
 .paragraf-ptf {
+    margin-bottom: 20px;
+    margin-left: 24px;
     font-size: 16px;
     line-height: 1.87;
+    text-align: left;
 }
 
 .footer-text {
@@ -258,7 +275,6 @@ address {
 
 .menu {
     display: inline-flex;
-
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -288,7 +304,6 @@ address {
     display: inline-block;
     width: 696px;
     margin: 200px 276px;
-
 }
 
 .section {
@@ -320,18 +335,27 @@ address {
     flex-basis: calc(100% / 3 - 30px);
 }
 
+.work-tiam {
+    flex-basis: calc(100% / 4 - 30px);
+}
+
 .fleximg {
+    width: 370px;
+    height: 404px;
     margin-left: 30px;
     margin-top: 30px;
     text-align: center;
+}
+.b-box {
+    display: block;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
 }
 
 .workers {
     flex-basis: calc(100% / 4 - 30px);
 }
 
-
-/* приховує елементи */
 .visually-hidden {
     position: absolute !important;
     clip: rect(1px 1px 1px 1px);
@@ -348,7 +372,6 @@ address {
       margin-bottom: 10px;
   }
 
-  /* флекси портфоліо */
 .menu-portfolio {
     display: flex;
     align-items: center;

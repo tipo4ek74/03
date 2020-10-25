@@ -24,12 +24,18 @@ body {
     background-color: var(--bg-color); 
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
 .bg-color-w {
     background-color: var(--bg-color);
 }
 
 .container {
-    width: 1200px;
+    width: 1170px;
     padding-left: 15px;
     padding-right: 15px;
     margin-right: auto;

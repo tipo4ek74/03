@@ -46,8 +46,8 @@ p {
     width: 1170px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-right: 0px;
-    margin-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 img {
@@ -265,6 +265,7 @@ address {
 .footer{
     background-color: var(--black-rock); 
 }
+
 .bg-color-dark {
     height: 600px;
 }
@@ -279,10 +280,12 @@ address {
     background: var(--title-cl);
     margin-top: 24px;
     margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bg-color-blu {
-    background: var(-bg-cl-blu);
+    background: var(--bg-cl-blu);
     padding-top: 94px;
 
 }
@@ -385,10 +388,10 @@ address {
     overflow: hidden;
   }
   
-  .workers-text {
+.workers-text {
       margin-top: 30px;
       margin-bottom: 10px;
-  }
+}
 
 .menu-portfolio {
     display: flex;

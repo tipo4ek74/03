@@ -38,30 +38,14 @@ p {
     padding: 0px;
 }
 
-.bg-color-w {
-    background-color: var(--title-cl);
-}
-
-.container {
-    width: 1170px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 img {
     display: block;
     max-width: 100%;
     height: auto;
   }
 
-h1, 
-h2, 
-h3, 
-p {
-    margin: 0;
-    padding: 0;
+.bg-color-w {
+    background-color: var(--title-cl);
 }
 
 .list {
@@ -154,6 +138,11 @@ p {
     line-height: 1.142;
     letter-spacing: 0.02em;
     color: var(--black);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    text-align: left;
+
 }
 
 .current {
@@ -165,14 +154,14 @@ p {
 }
 
 .section {
-    padding-bottom: 94px;
+    padding-top: 94px;
 }
 
 .section-title {
     color: var(--black);
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.66;
+    line-height: 1.172;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -189,18 +178,28 @@ p {
 .section-title-caps {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14x;
+    line-height: 1.172;
     text-transform: uppercase;
     color: var(--black);
     margin-bottom: 10px;
     
 }
 
+.banefits-paragraph {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+}
+
  .hero-title {
     color: var(--title-cl);
+    font-style: normal;
     font-size: 44px;
     font-weight: 900;
-    line-height: 1.36;
+    line-height: 1.363;
     letter-spacing: 0.06em;
     text-align: center;
     text-transform: uppercase;
@@ -218,11 +217,16 @@ p {
 .exemples-title {
     margin-top: 20px;
     margin-left: 24px;
-    text-align: left;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
     letter-spacing: 0.06em;
+    text-align: left;
+    color: var(--black);
+
 }
 
 .paragraf {
@@ -236,8 +240,15 @@ p {
     margin-bottom: 20px;
     margin-left: 24px;
     font-size: 16px;
-    line-height: 1.87;
+    line-height: 1.875;
     text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: #757575;
+
+
 }
 
 .footer-text {
@@ -270,6 +281,14 @@ address {
     height: 600px;
 }
 
+.container {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .footer-container {
     padding-bottom: 60px;
     padding-top: 60px;
@@ -284,16 +303,20 @@ address {
     margin-right: auto;
 }
 
+.header-container {
+    display: inline-flex;
+    align-items: center;
+    height: 79px;
+    border-bottom: 1px solid #ECECEC;
+}
+
 .bg-color-blu {
     background: var(--bg-cl-blu);
     padding-top: 94px;
-
 }
 
-.header-container {
-    height: 79px;
-    margin-bottom: 6px;
-    border-bottom: 1px solid #ECECEC;
+.my-comand {
+    margin-top: 94px;
 }
 
 .menu {
@@ -304,12 +327,6 @@ address {
 
 .menu-item:not(:last-child) {
     padding-right: 50px;
-}
-
-.header-container {
-    display: inline-flex;
-    align-items: center;
-    
 }
 
 .heder-logo {
@@ -338,7 +355,7 @@ address {
 }
 .content-box {
     width: 270px;
-    flex-basis: calc((100% - 30px) / 4);
+    flex-basis: calc(100% / 4 -30px);
 }
 
 .benefits {
@@ -358,6 +375,7 @@ address {
 
 .work-tiam {
     flex-basis: calc(100% / 4 - 30px);
+    background-color: var(--title-cl);
 }
 
 .fleximg {
@@ -367,6 +385,24 @@ address {
     margin-top: 30px;
     text-align: center;
 }
+
+.fleximg-my-work {
+    width: 370px;
+    height: 294px;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align: center
+}
+
+.fleximg-tiam {
+    width: 370px;
+    height: 428px;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 94px;
+}
+
 .b-box {
     display: block;
     border: 1px solid #EEEEEE;
